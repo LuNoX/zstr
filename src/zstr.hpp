@@ -203,7 +203,7 @@ public:
             // the 3rd top bit
             fdict = flg & 0x20;
             // the bottom 5 bits
-            fcheck = flg & 0x10;
+            fcheck = flg & 0x1f;
 
             // reinterpret as integer in MSB order
             total = cmf * 256 + flg;
