@@ -214,7 +214,7 @@ public:
         }
     };
 
-    static bool is_compressed(const char* const buffer,const char* const end) {
+    static bool is_compressed(const char* const buffer, const char* const end) {
         // Buffer too short
         if (buffer + 2 > end)
             return false;
